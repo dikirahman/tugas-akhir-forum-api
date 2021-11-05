@@ -19,10 +19,10 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install migrate and test
+    - name: Installing dependency and run test
       run: |
-        npm install
-        npm run migrate:test up
+        npm ci
+        npm run migrate up
         npm run test
       env:
         CI: true
