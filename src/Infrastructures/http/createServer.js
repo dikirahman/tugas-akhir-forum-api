@@ -28,6 +28,17 @@ const createServer = async (container) => {
     }),
   });
 
+  server.route({
+    method: 'GET',
+    path: '/',
+    handler: (request, h) => {
+      const response = h.response({
+        message: 'Hello World',
+      });
+      return response;
+    },
+  });
+
   await server.register([
     {
       plugin: users,

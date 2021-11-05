@@ -1,7 +1,7 @@
 {
   "user": "dbmasteruser",
-  "password": "d<1v:%.5KzzE;Id0d`6F8(UOIaD1fA%+",
-  "host": "ls-72d248931ab9c918b89a47eb38aff85c4298f309.ciyar9aw1acg.ap-southeast-1.rds.amazonaws.com",
+  "password": "F?h(uI+)eDbn+f;D(jVLZ>p=SwL4:-J;",
+  "host": "ls-e3578413b02e458bb15b8b139c19f6cf20b3f84e.ciyar9aw1acg.ap-southeast-1.rds.amazonaws.com",
   "port": 5432,
   "database": "forum_test"
 }
